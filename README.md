@@ -32,7 +32,8 @@ Register no : 22008347
 ```python
 with open('f1.txt','r') as firstfile:
     with open('f2.txt','a') as secondfile:
-        secondfile.write(line)
+        for line in firstline:
+            secondfile.write(line)
 ```        
 
 ### OUTPUT:
